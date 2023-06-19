@@ -1,0 +1,8 @@
+python3 hw4.py <train_full_path> <dev__full_path> <test_full_path> <glove_full_path>
+
+args 1 : give the full directory path of train dataset
+args 2 : give the full directory path of dev dataset
+args 3 : give the full directory path of test dataset
+args 4 : give the full directory path of glove dataset
+
+Keep the blstm1, blstm2, label_dict.json and vocab.json in the root directory)same as the code file. Run the py file in the above style. Preferabaly keep them all in one folder as the output files will also be downloaded in the same directory. Run the file in GPU runtime or else will give CUDA error.
